@@ -47,5 +47,5 @@ form?.addEventListener('submit', (e) => {
     `Detalles: ${data.get('detalles') || ''}`
   ].join('\\n');
   // Correo provisional: cámbialo por el correo comercial real antes de publicar.
-  window.location.href = `mailto:ventas@autoexpresscontainer.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:ventas1.mzo@autoexpresscontainer.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 });
